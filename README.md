@@ -23,7 +23,7 @@ neo4j:5
 ```
 ### Web UI
 
-> * [Neo4J](http://localhost:7474/) 
+> * http://localhost:7474/
 > * user: neo4j pwd: mypassword
 
 ### API
