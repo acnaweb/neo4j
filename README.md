@@ -50,4 +50,4 @@ neo4j:5
 
 - https://neo4j.com/
 - https://www.tutorialspoint.com/neo4j/index.htm
-
+- [Introdução ao Neo4j, Grafos, Nós, Rótulos](https://www.youtube.com/watch?v=5jlPSMPLHQ4)
