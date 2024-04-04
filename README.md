@@ -33,6 +33,35 @@ neo4j:5
 > - user: neo4j 
 > - pwd: mypassword
 
+### Cypher Query Language
+
+```sql
+CREATE (: Pessoa{nome: "João", idade: 20})
+CREATE (: Pessoa{nome: "Maria", idade: 30})
+```
+
+```sql
+MATCH (p1: Pessoa{nome: "João"}), (p2: Pessoa{nome: "Maria"})
+CREATE (p1)-[:SEQUE]->(P2)
+```
+
+```sql
+MATCH (p: Pessoa{nome: "Maria"}) RETURN p
+```
+
+```sql
+MATCH (p: Pessoa{nome: "Maria"}) SET p.estadoCivil = "casada"
+```
+
+```sql
+MATCH (p: Pessoa{nome: "João"}) 
+DELETE p
+```
+
+```sql
+MATCH (p: Pessoa{nome: "João"}) 
+DETACH DELETE p
+```
 
 ### Info
 
