@@ -1,6 +1,14 @@
 # Neo4j Graph Database
 
-Amundsen Data Catalog
+Neo4j Graph
+
+## Use Cases
+
+- Redes Sociais
+- Sistemas de Recomendações
+- Sistema de Logística
+- Detecção de Fraude
+- Controle de Acesso
 
 ## Install
 
