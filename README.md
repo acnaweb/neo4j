@@ -77,11 +77,11 @@ DETACH DELETE p
 
 | RDBMS            | Graph Database            |
 |------------------|---------------------------|
-| Tables           | Graphs                    |
+| Tables           | Label                    |
 | Rows             | Nodes                     |
 | Columns and Data | Properties and its values |
 | Constraints      | Relationships             |
-| Joins            | Traversal                 |
+| Joins            | Transversal               |
 
 ## References
 
