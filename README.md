@@ -20,6 +20,8 @@ Download and Install [Neo4J Desktop](https://neo4j.com/download/neo4j-desktop/)
 
 ```sh
 docker run \
+--name neo4j \
+--rm \
 -p 7474:7474 \
 -p 7687:7687 \
 -v ./data:/neo4j/data \
