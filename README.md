@@ -19,7 +19,7 @@ Download and Install [Neo4J Desktop](https://neo4j.com/download/neo4j-desktop/)
 ### Run
 
 ```sh
-docker run \  
+docker run \
   --name neo4j \
   --rm \
   -d \
