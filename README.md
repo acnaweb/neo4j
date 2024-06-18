@@ -19,17 +19,18 @@ Download and Install [Neo4J Desktop](https://neo4j.com/download/neo4j-desktop/)
 ### Run
 
 ```sh
-docker run \
---name neo4j \
---rm \
--p 7474:7474 \
--p 7687:7687 \
--v ./data:/neo4j/data \
--v ./conf:/conf \
--v ./plugins:/plugins \
--v ./backup:/backup \
--e NEO4J_AUTH=neo4j/mypassword \
-neo4j:5
+docker run \  
+  --name neo4j \
+  --rm \
+  -d \
+  -p 7474:7474 \
+  -p 7687:7687 \
+  -v ./data:/neo4j/data \
+  -v ./conf:/conf \
+  -v ./plugins:/plugins \
+  -v ./backup:/backup \
+  -e NEO4J_AUTH=neo4j/mypassword \
+  neo4j:5
 ```
 ### Web UI
 
