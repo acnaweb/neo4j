@@ -29,14 +29,14 @@ docker run \
   -v ./conf:/conf \
   -v ./plugins:/plugins \
   -v ./backup:/backup \
-  -e NEO4J_AUTH=neo4j/test \
+  -e NEO4J_AUTH=neo4j/mypassword \
   neo4j:5
 ```
 ### Web UI
 
 > * http://localhost:7474/
 > * user: neo4j
-> * pwd: test
+> * pwd: mypassword
 
 ### API
 
